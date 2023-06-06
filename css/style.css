@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.wraaper{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-image: url(../img/Ellipse\ 33.png);
+    background-repeat: no-repeat;
+    background-position: 954px;
+    
+}
+.sec1 {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/телефончик.png);
+    background-repeat: no-repeat;
+    background-position: 480px;
+
+}
+
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.header a {
+    color: black;
+}
+
+.nav_bar {
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.header_nav_ul {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.div_li {
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+}
+
+.div_box_sec1 {
+    max-width: 1300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-image: url(../img/Ellipse\ 34.png);
+    background-repeat: no-repeat;
+    background-position: right 105px;
+}
+
+.div_box_sec1 h1 {
+    width: 300px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.div_box_sec1 h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    background: linear-gradient(103.63deg, #FF4460 1.93%, #AD00FF 54.03%, #31CEFF 92.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.div_box_sec1 p {
+    width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+
+}
+
+.div_box_sec1 a {
+    color: white;
+}
+
+.btn_1 {
+    width: 230px;
+    height: 50px;
+    background-color: #FF4460;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_2 {
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 230px;
+    height: 50px;
+}
+
+.btn_2 a {
+    color: black;
+}
